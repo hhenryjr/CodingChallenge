@@ -22,7 +22,7 @@ namespace CodingChallenge.FamilyTree.Tests
         {
             var tree = FamilyTreeGenerator.Make();
             var result = new Solution().GetBirthMonth(tree, "Jeebus");
-            result.ShouldEqual("");
+            result.ShouldEqual("Name does not exist!");
         }
     }
 }
